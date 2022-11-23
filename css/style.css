@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(33, 30, 53);
+    color:rgb(89, 66, 110) ;
+    font-family:'Philosopher', sans-serif; ;
+}
+    
+img{
+    width:40px;
+}
+.top{
+    display:flex;
+    justify-content: space-between;
+}
+
+.skills{display:block;
+    
+}
+.skills ul{
+    list-style-type:none;
+}
+
+.description{
+    display:flex;
+    justify-content: space-between;
+}
+
+.projects{
+    display: block;   
+}
+.projects ul{
+    list-style-type:none;
+}
+
+.footer{display:flex;
+    justify-content: space-between;
+    
+}
+.footer ul{
+    list-style-type:none;
+}
