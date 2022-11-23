@@ -3,38 +3,110 @@ body{
     color:rgb(89, 66, 110) ;
     font-family:'Philosopher', sans-serif; ;
 }
-    
+
+header img{ 
+    margin-left:3rem;
+    width : 180px; height : 180px;
+    border: none;
+    -moz-border-radius : 90px;
+    -webkit-border-radius : 90px;
+    border-radius : 90px;
+}
+
 img{
     width:40px;
 }
+
 .top{
     display:flex;
     justify-content: space-between;
+    border: 1px solid ;
+    padding:1rem 3rem 1rem 3rem;
+    margin:0.5rem 0 0.5rem 0 ;
+    background-image:url(../images/rrrainbow.svg);
+    background-attachment:fixed;
+    background-size : cover;
+    background-repeat: no-repeat;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: rgb(24, 23, 23) 1px 0 10px;
+}
+
+.topname{
+    margin-right: 3rem;
+}
+
+.topname p{
+    font-size: 30px;
 }
 
 .skills{display:block;
-    
+    border: 1px solid ;
+    padding:1rem 3rem 1rem 3rem;
+    margin:0.5rem 0 0.5rem 0 ;
+
 }
+
 .skills ul{
     list-style-type:none;
+    padding:0;
+    margin:0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills ul li{
+    display: flex;
+    justify-content: space-between;
+}
+
+.student{
+    display: flex;
+    margin: 1rem;
 }
 
 .description{
     display:flex;
     justify-content: space-between;
+    border: 1px solid ;
+    padding:1rem 3rem 1rem 3rem;
+    margin:0.5rem 0 0.5rem 0 ;
 }
 
 .projects{
-    display: block;   
+    display: block;  
+    border: 1px solid ; 
+    padding:1rem 3rem 1rem 3rem;
+    margin:0.5rem 0 0.5rem 0 ;
 }
+
 .projects ul{
     list-style-type:none;
+    
 }
 
 .footer{display:flex;
     justify-content: space-between;
-    
+    border: 1px solid ;border: 1px solid ;
+    padding:1rem 3rem 1rem 3rem;
+    margin:0.5rem 0 0.5rem 0 ;
 }
+
 .footer ul{
     list-style-type:none;
+    padding:0;
+    margin:0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-social{
+    display: flex;
+}
+
+.mail{
+    color:rgb(89, 66, 110) ;
 }
